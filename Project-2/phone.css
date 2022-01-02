@@ -1,0 +1,104 @@
+
+/* Home section */
+#home{
+    padding: 2px 9px;
+    height: 374px;
+}
+ 
+#home::before{
+    height: 534px;
+}
+/* Services section */
+#services{
+flex-direction: column;
+}
+
+#services .box img{
+    height: 50px;
+    display: block;
+    margin: auto;
+    /* padding: 5px; */
+    }
+/* Navigation section */
+#navbar{
+    flex-direction: column;
+flex-wrap: wrap;
+}
+
+#navbar ul li a{
+font-size: 1rem;
+padding: 5px 9px;
+
+}
+
+
+
+/* Client sectionn */
+.clients{
+    flex-wrap: wrap;
+}
+
+.client-item img{
+    width: 100px;
+    padding: 6px;
+    height: auto;
+}
+
+
+/* Contact us section  */
+.contact-us{
+
+}
+
+
+
+
+/* utility section  */
+
+#home h1{
+    color: cornsilk;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.h-primary{
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    padding: 8px;
+}
+.h-secondry{
+    font-size: 1rem;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    padding: 8px;
+}
+.center{
+    text-align:center;
+}
+#home p{
+    color: cornsilk;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 0.7rem;
+}
+.btn{
+    margin: 9px;
+    padding: 1.5px;
+    border: 1px solid rgb(15, 15, 15);
+    font-family:'Bebas Neue', cursive ;
+    background-color: cornsilk;
+    font-size: 0.8rem;
+    /* border-radius: 10px; */
+}
+.btn:hover{
+    background-color: rgb(243, 219, 123);
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    color: blanchedalmond;
+}
